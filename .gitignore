@@ -1,6 +1,7 @@
 # Hackathon data
 data
 *.pdf
+models
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

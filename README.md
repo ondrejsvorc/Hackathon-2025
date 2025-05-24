@@ -28,16 +28,11 @@ Cílem naší práce bylo navrhnout a implementovat generátor realistických fy
 - parametrizovatelné,
 - využitelné pro trénink a testování modelů detekce anomálií.
 
-## Analýza dat
-
-Dataset (`.hdf5`) obsahuje 90 hodin reálných, expertně anotovaných záznamů arteriálního tlaku. Pro jeho prohlížení jsme využili dostupné nástroje:
-
-- [HDF5 Visualizer](https://pavelfalta.github.io/hdf5visualizer/)
-- [Repozitář s nástroji](https://github.com/PavelFalta/creathon25)
-
----
+## Architektura
+![](/assets/architecture.png)
 
 ## Použité metody
+![](/assets/iterations.png)
 
 ### 1. VAE na raw signálech
 - První pokus: **Variational Autoencoder (VAE)** na původních časových signálech.
@@ -67,25 +62,3 @@ Vytvořili jsme interaktivní web pro vizualizaci vygenerovaných signálů:
 
 - SVG model lidského těla (např. kliknutí na „hlavu“)
 - Animovaný graf zobrazující signál v čase
-- Přístupné i nespecialistům
-
-## Parametrizace generátoru
-
-Naše řešení umožňuje generování signálů s různými parametry:
-
-- **Pulzní frekvence** (údery za minutu)
-- **Pulzní tlak**
-- **Výskyt a typy anomálií**
-- **Délka generovaného signálu**
-
-## Metriky hodnocení
-- :)
-
-## Shrnutí
-
-Během hackathonu jsme:
-
-- Prozkoumali více přístupů k modelování signálu.
-- Identifikovali silné a slabé stránky jednotlivých metod.
-- Vytvořili funkční webovou aplikaci pro vizualizaci.
-- Vyvinuli generátor, který lze parametrizovat a použít k tréninku modelů detekce anomálií.

@@ -89,5 +89,3 @@ Během hackathonu jsme:
 - Identifikovali silné a slabé stránky jednotlivých metod.
 - Vytvořili funkční webovou aplikaci pro vizualizaci.
 - Vyvinuli generátor, který lze parametrizovat a použít k tréninku modelů detekce anomálií.
-
-> _Tento projekt byl vytvořen v rámci hackathonu [CreaThon 2025](https://creathon.cz) na zadání č. C – Generování syntetických signálů s anomáliemi._

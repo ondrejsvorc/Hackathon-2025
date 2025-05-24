@@ -2,6 +2,9 @@
 data
 *.pdf
 models
+modelpokus
+models2
+modelsHyper
 spectrum
 plots
 output

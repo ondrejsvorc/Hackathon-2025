@@ -1,0 +1,82 @@
+[
+  {
+    "file": "generated_structured_signals_b7ae709a-3897-11f0-bccf-bcf4d4744066",
+    "min": 18.029983520507812,
+    "max": 78.6166763305664,
+    "mean": 41.19181823730469,
+    "std": 6.439850330352783,
+    "nan_count": 0
+  },
+  {
+    "file": "generated_structured_signals_b81f4171-3897-11f0-a64c-bcf4d4744066",
+    "min": 17.970218658447266,
+    "max": 80.47381591796875,
+    "mean": 41.37477111816406,
+    "std": 6.495334625244141,
+    "nan_count": 0
+  },
+  {
+    "file": "generated_structured_signals_b88d0399-3897-11f0-b018-bcf4d4744066",
+    "min": 19.74765396118164,
+    "max": 80.71369171142578,
+    "mean": 41.220184326171875,
+    "std": 6.345139026641846,
+    "nan_count": 0
+  },
+  {
+    "file": "generated_structured_signals_b8f82e5d-3897-11f0-9387-bcf4d4744066",
+    "min": 17.805095672607422,
+    "max": 78.59237670898438,
+    "mean": 41.150150299072266,
+    "std": 6.334597110748291,
+    "nan_count": 0
+  },
+  {
+    "file": "generated_structured_signals_b9666f6b-3897-11f0-9b77-bcf4d4744066",
+    "min": 20.13661766052246,
+    "max": 71.07814025878906,
+    "mean": 41.34055709838867,
+    "std": 6.090334415435791,
+    "nan_count": 0
+  },
+  {
+    "file": "generated_structured_signals_b9d26cef-3897-11f0-86a7-bcf4d4744066",
+    "min": 17.045711517333984,
+    "max": 80.47014617919922,
+    "mean": 41.40325927734375,
+    "std": 6.2648797035217285,
+    "nan_count": 0
+  },
+  {
+    "file": "generated_structured_signals_ba45ee98-3897-11f0-b577-bcf4d4744066",
+    "min": 15.282715797424316,
+    "max": 80.41986846923828,
+    "mean": 41.29181671142578,
+    "std": 6.378143787384033,
+    "nan_count": 0
+  },
+  {
+    "file": "generated_structured_signals_bab4d993-3897-11f0-bc96-bcf4d4744066",
+    "min": 17.53314208984375,
+    "max": 77.24722290039062,
+    "mean": 41.26503372192383,
+    "std": 6.430903434753418,
+    "nan_count": 0
+  },
+  {
+    "file": "generated_structured_signals_bb2324a9-3897-11f0-b75f-bcf4d4744066",
+    "min": 17.644412994384766,
+    "max": 75.21554565429688,
+    "mean": 41.329994201660156,
+    "std": 6.247426986694336,
+    "nan_count": 0
+  },
+  {
+    "file": "generated_structured_signals_bb916d63-3897-11f0-9a85-bcf4d4744066",
+    "min": 17.85065269470215,
+    "max": 79.8140869140625,
+    "mean": 41.34114074707031,
+    "std": 6.198333263397217,
+    "nan_count": 0
+  }
+]

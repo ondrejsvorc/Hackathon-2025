@@ -5,12 +5,13 @@ import h5py
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 import time
+import uuid
 
 # === CESTY ===
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, '..'))
 MODEL_DIR = os.path.join(BASE_DIR, 'usablemodels', 'Vae500')
-OUTPUT_HDF5 = os.path.join(SCRIPT_DIR, "generated_structured_signals.hdf5")
+OUTPUT_HDF5 = os.path.join(SCRIPT_DIR, "generated_structured_signals")
 
 # === MODELY & SCALERY ===
 DECODERS = {
@@ -47,7 +48,7 @@ def generate_signal(decoder_path, scaler_path, latent_dim):
     return np.array(full_signal, dtype=np.float32)
 
 def save_to_hdf5(icp_signal, art_signal):
-    with h5py.File(OUTPUT_HDF5, 'w') as f:
+    with h5py.File(f"{OUTPUT_HDF5}_{uuid.uuid1()}.hdf5", 'w') as f:
         waves = f.create_group("waves")
 
         for name, signal in [("icp", icp_signal), ("art", art_signal)]:
@@ -83,4 +84,5 @@ def main():
     save_to_hdf5(signals["icp"], signals["art"])
 
 if __name__ == "__main__":
-    main()
+    for i in range(10):
+        main()

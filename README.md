@@ -37,7 +37,7 @@ Dataset (`.hdf5`) obsahuje 90 hodin reálných, expertně anotovaných záznam�
 
 ---
 
-## ⚙️ Použité metody
+## Použité metody
 
 ### 1. VAE na raw signálech
 - První pokus: **Variational Autoencoder (VAE)** na původních časových signálech.

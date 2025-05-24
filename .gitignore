@@ -3,6 +3,8 @@ data
 *.pdf
 models
 spectrum
+plots
+output
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

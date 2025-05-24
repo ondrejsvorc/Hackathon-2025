@@ -5,6 +5,8 @@ from tensorflow.keras.models import load_model
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import matplotlib.pyplot as plt
 
+# Currently not supported
+
 ENCODER_PATH = "models/vae_encoder.keras"
 DECODER_PATH = "models/vae_decoder.keras"
 FFT_HDF5_PATH = "output/all_fft_signals.hdf5"

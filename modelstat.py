@@ -2,7 +2,6 @@ from dataclasses import asdict, dataclass
 import json
 import os
 import numpy as np
-
 from lib.loader import FolderExtractor
 
 SIGNAL_NAME = "art"

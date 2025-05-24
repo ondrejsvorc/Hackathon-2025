@@ -15,16 +15,12 @@ pip install -r requirements.txt
 
 Add `data` folder to the root project directory. Download data [here](http://data.ki.ujep.cz/files/Generov%C3%A1n%C3%AD%20syntetick%C3%BDch%20sign%C3%A1l%C5%AF%20s%20anom%C3%A1liemi/).
 
-
-
-# Generování syntetických signálů s anomáliemi  
-**Tým:** [Vlnky]  
-**Hackathon:** CreaThon 2025  
+## Generování syntetických signálů s anomáliemi
+**Tým:** Vlnky
+**Hackathon:** CreaThon 2025
 **Zadání:** C – Generování syntetických signálů arteriálního tlaku s anomáliemi
 
----
-
-## 🩺 Úvod
+## Úvod
 
 Cílem naší práce bylo navrhnout a implementovat generátor realistických fyziologických signálů arteriálního tlaku, které budou:
 - zcela syntetické,
@@ -32,11 +28,9 @@ Cílem naší práce bylo navrhnout a implementovat generátor realistických fy
 - parametrizovatelné,
 - využitelné pro trénink a testování modelů detekce anomálií.
 
----
+## Analýza dat
 
-## 📊 Analýza dat
-
-Dataset (`.hdf5`) obsahuje 90 hodin reálných, expertně anotovaných záznamů arteriálního tlaku. Pro jeho prohlížení jsme využili dostupný nástroj pro vizualizaci:
+Dataset (`.hdf5`) obsahuje 90 hodin reálných, expertně anotovaných záznamů arteriálního tlaku. Pro jeho prohlížení jsme využili dostupné nástroje:
 
 - [HDF5 Visualizer](https://pavelfalta.github.io/hdf5visualizer/)
 - [Repozitář s nástroji](https://github.com/PavelFalta/creathon25)
@@ -67,9 +61,7 @@ Dataset (`.hdf5`) obsahuje 90 hodin reálných, expertně anotovaných záznam�
 - Generování realistických 5s úseků signálů.
 - Omezení: malá délka výstupu, ale výborná věrohodnost.
 
----
-
-## 🌐 Webová prezentace
+## Webová prezentace
 
 Vytvořili jsme interaktivní web pro vizualizaci vygenerovaných signálů:
 
@@ -77,9 +69,7 @@ Vytvořili jsme interaktivní web pro vizualizaci vygenerovaných signálů:
 - Animovaný graf zobrazující signál v čase
 - Přístupné i nespecialistům
 
----
-
-## ⚙️ Parametrizace generátoru
+## Parametrizace generátoru
 
 Naše řešení umožňuje generování signálů s různými parametry:
 
@@ -88,20 +78,10 @@ Naše řešení umožňuje generování signálů s různými parametry:
 - **Výskyt a typy anomálií**
 - **Délka generovaného signálu**
 
----
+## Metriky hodnocení
+- :)
 
-## 📏 Metriky hodnocení
-
-K porovnání generovaných a reálných signálů jsme využili:
-
-- `Dynamic Time Warping (DTW)` – podobnost časových tvarů
-- `Power Spectral Density (PSD)` – srovnání spektra
-- Statistika anomálií – výskyt, délka, četnost
-- Reconstruction error – konzistence latentních reprezentací
-
----
-
-## ✅ Shrnutí
+## Shrnutí
 
 Během hackathonu jsme:
 
@@ -109,14 +89,5 @@ Během hackathonu jsme:
 - Identifikovali silné a slabé stránky jednotlivých metod.
 - Vytvořili funkční webovou aplikaci pro vizualizaci.
 - Vyvinuli generátor, který lze parametrizovat a použít k tréninku modelů detekce anomálií.
-
----
-
-## 📁 Odkazy
-
-- 🧠 Repo: https://github.com/PavelFalta/creathon25  
-- 📊 Vizualizace: https://pavelfalta.github.io/hdf5visualizer/
-
----
 
 > _Tento projekt byl vytvořen v rámci hackathonu [CreaThon 2025](https://creathon.cz) na zadání č. C – Generování syntetických signálů s anomáliemi._
